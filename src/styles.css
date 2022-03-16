@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  display: grid;
+  align-items: flex-start;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+table {
+  width: 150px;
+  margin: 0.5em;
+}
+table,
+td {
+  border-collapse: collapse;
+  width: 60px;
+}
+
+input {
+  width: 60px;
+}
+button {
+  width: 100%;
+}
